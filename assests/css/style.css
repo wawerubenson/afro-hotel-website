@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Spline+Sans&display=swap');
+
+/* 
+
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+
+*/
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --color-primary: #2B4484;
+    --font-spline: 'Spline Sans', sans-serif;
+    --font-oleo: 'Oleo Script Swash Caps', cursive;
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Spline Sans', sans-serif!important;
+    line-height: 1.7;
+    color: #4444;
+}
+.logo-style {
+    font-family: var(--font-oleo);
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--color-primary)!important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #2222;
+}
+
+a {
+    color: #1111;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover {
+    color: var(--color-primary);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 120px 120px;
+}
+
+.btn {
+    border: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    background-color: var(--color-primary)!important;
+    color: var(--color-white)!important;
+    font-weight: 600;
+    border-color: var(--color-primary);
+    font-family: var(--font-poppins)!important;
+}
+.btn-brand:hover {
+    border-color: var(--color-black);
+    color: white;
+}
+
+.slide-1 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image-1.jpeg);
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image-4.jpeg);
+}
+
+.slide-3 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image-5.jpeg);
+}
+
+.hero-content p {
+    font-family: var(--font-oleo);
+    font-size: 2.4rem;
+}
+
+.hero-content h3 {
+    font-family: var(--font-poppins);
+    color: #dbd9d9;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+#hero-sliders p::after
+/* #hero-sliders p::before*/ {
+    content: " ";
+    width: 30px !important;
+    height: 4px !important;
+    background-color: var(--color-white) !important;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(20, 15, 15, 0.5) !important;
+    width: 40px !important;
+    height: 70px !important;
+    margin: auto !important;
+}
+
+
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: var(--color-primary);
+}
+
+.headline-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.headline-text p {
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+
